@@ -108,21 +108,21 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v" into library work
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\ipcore_dir\clk_gen.v" into library work
 Parsing module <clk_gen>.
-Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" into library work
-Parsing module <TX_Module>.
-Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" into library work
-Parsing module <UART_RX>.
-Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\LED_CTR.v" into library work
-Parsing module <LED_CTR>.
-Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\Input_Data.v" into library work
-Parsing module <Paralle_Data>.
-Analyzing Verilog file "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v" into library work
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\uart_baud_gen.v" into library work
 Parsing module <uart_baud_gen>.
-Analyzing Verilog file "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\meta_harden.v" into library work
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TX_Module.v" into library work
+Parsing module <TX_Module>.
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" into library work
+Parsing module <UART_RX>.
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\meta_harden.v" into library work
 Parsing module <meta_harden>.
-Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\TOP.v" into library work
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\LED_CTR.v" into library work
+Parsing module <LED_CTR>.
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\Input_Data.v" into library work
+Parsing module <Paralle_Data>.
+Analyzing Verilog file "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TOP.v" into library work
 Parsing module <TOP>.
 
 =========================================================================
@@ -136,33 +136,33 @@ Elaborating module <clk_gen>.
 Elaborating module <IBUFGDS>.
 
 Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=1,CLKFX_MULTIPLY=4,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=5.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
-WARNING:HDLCompiler:1127 - "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v" Line 128: Assignment to locked_int ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v" Line 129: Assignment to status_int ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\ipcore_dir\clk_gen.v" Line 128: Assignment to locked_int ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\ipcore_dir\clk_gen.v" Line 129: Assignment to status_int ignored, since the identifier is never used
 
 Elaborating module <BUFG>.
 
 Elaborating module <Paralle_Data>.
 
 Elaborating module <uart_baud_gen>.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v" Line 100: Result of 8-bit expression is truncated to fit in 7-bit target.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v" Line 112: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\uart_baud_gen.v" Line 100: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\uart_baud_gen.v" Line 112: Result of 8-bit expression is truncated to fit in 7-bit target.
 
 Elaborating module <TX_Module>.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 81: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 98: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 106: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 123: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TX_Module.v" Line 81: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TX_Module.v" Line 98: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TX_Module.v" Line 106: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TX_Module.v" Line 123: Result of 5-bit expression is truncated to fit in 4-bit target.
 
 Elaborating module <meta_harden>.
 
 Elaborating module <UART_RX>.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 74: Result of 6-bit expression is truncated to fit in 5-bit target.
-"D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 79. $display START\n
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 100: Result of 6-bit expression is truncated to fit in 5-bit target.
-"D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 107. $display READ:0\n
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 108: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 123: Result of 6-bit expression is truncated to fit in 5-bit target.
-"D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 127. $display stop\n
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" Line 74: Result of 6-bit expression is truncated to fit in 5-bit target.
+"D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" Line 79. $display START\n
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" Line 100: Result of 6-bit expression is truncated to fit in 5-bit target.
+"D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" Line 107. $display READ:0\n
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" Line 108: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" Line 123: Result of 6-bit expression is truncated to fit in 5-bit target.
+"D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v" Line 127. $display stop\n
 
 Elaborating module <LED_CTR>.
 
@@ -171,19 +171,19 @@ Elaborating module <LED_CTR>.
 =========================================================================
 
 Synthesizing Unit <TOP>.
-    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\TOP.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TOP.v".
     Summary:
 	no macro.
 Unit <TOP> synthesized.
 
 Synthesizing Unit <clk_gen>.
-    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\ipcore_dir\clk_gen.v".
     Summary:
 	no macro.
 Unit <clk_gen> synthesized.
 
 Synthesizing Unit <Paralle_Data>.
-    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\Input_Data.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\Input_Data.v".
     Found 8-bit register for signal <data_parallel>.
     Found 8x8-bit Read Only RAM for signal <switches[2]_GND_6_o_wide_mux_1_OUT>
     Summary:
@@ -192,7 +192,7 @@ Synthesizing Unit <Paralle_Data>.
 Unit <Paralle_Data> synthesized.
 
 Synthesizing Unit <uart_baud_gen>.
-    Related source file is "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\uart_baud_gen.v".
         BAUD_RATE = 57600
         CLOCK_RATE = 100000000
     Found 1-bit register for signal <baud_x16_en_reg>.
@@ -205,7 +205,7 @@ Synthesizing Unit <uart_baud_gen>.
 Unit <uart_baud_gen> synthesized.
 
 Synthesizing Unit <TX_Module>.
-    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\TX_Module.v".
     Found 1-bit register for signal <Serial_out>.
     Found 4-bit register for signal <baud_counter>.
     Found 2-bit register for signal <next_status>.
@@ -228,7 +228,7 @@ Synthesizing Unit <TX_Module>.
 Unit <TX_Module> synthesized.
 
 Synthesizing Unit <meta_harden>.
-    Related source file is "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\meta_harden.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\meta_harden.v".
     Found 1-bit register for signal <signal_dst>.
     Found 1-bit register for signal <signal_meta>.
     Summary:
@@ -236,7 +236,7 @@ Synthesizing Unit <meta_harden>.
 Unit <meta_harden> synthesized.
 
 Synthesizing Unit <UART_RX>.
-    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\RX_MODULE.v".
     Found 1-bit register for signal <Serial_Bit>.
     Found 5-bit register for signal <clk_counter>.
     Found 2-bit register for signal <next_status>.
@@ -259,7 +259,7 @@ Synthesizing Unit <UART_RX>.
 Unit <UART_RX> synthesized.
 
 Synthesizing Unit <LED_CTR>.
-    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\LED_CTR.v".
+    Related source file is "D:\Work Zone\Your Own Projects\UART_MOUDLE\UART\TX_UART_Module\LED_CTR.v".
     Found 4-bit register for signal <LEDS_OUT>.
     Found 16x4-bit Read Only RAM for signal <_n0034>
     Summary:
@@ -618,12 +618,12 @@ clk_p          |    4.111|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.78 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.53 secs
  
 --> 
 
-Total memory usage is 4495572 kilobytes
+Total memory usage is 4496144 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   22 (   0 filtered)

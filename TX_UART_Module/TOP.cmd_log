@@ -160,3 +160,4 @@ map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -r
 par -w -intstyle ise -ol high -mt off TOP_map.ncd TOP.ncd TOP.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf TOP.ucf 
 bitgen -intstyle ise -f TOP.ut TOP.ncd 
+xst -intstyle ise -ifn "D:/Work Zone/Your Own Projects/UART_MOUDLE/UART/TX_UART_Module/TOP.xst" -ofn "D:/Work Zone/Your Own Projects/UART_MOUDLE/UART/TX_UART_Module/TOP.syr" 

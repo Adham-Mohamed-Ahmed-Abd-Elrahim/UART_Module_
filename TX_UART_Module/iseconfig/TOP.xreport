@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-05-11T22:36:54</DateModified>
+  <DateModified>2021-05-11T22:55:33</DateModified>
   <ModuleName>TOP</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/Work Zone/FPGA/TX/TX_UART_Module/iseconfig/TOP.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Work Zone/FPGA/TX/TX_UART_Module\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Work Zone/Your Own Projects/UART_MOUDLE/UART/TX_UART_Module/iseconfig/TOP.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Work Zone/Your Own Projects/UART_MOUDLE/UART/TX_UART_Module\</ImplementationReportsDirectory>
   <DateInitialized>2021-05-02T01:59:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
