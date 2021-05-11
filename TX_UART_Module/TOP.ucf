@@ -1,0 +1,24 @@
+NET "reset" LOC = H8;
+NET "clk_p" LOC = K21;
+NET "RX_Done" LOC = V11;
+
+#Created by Constraints Editor (xc6slx45t-fgg484-3) - 2021/05/02
+NET "clk_N" TNM_NET = "clk_N";
+TIMESPEC TS_clk_N = PERIOD "clk_N" 5 ns LOW 50 %;
+NET "clk_p" TNM_NET = "clk_p";
+TIMESPEC TS_clk_p = PERIOD "clk_p" 5 ns HIGH 50 %;
+
+# PlanAhead Generated physical constraints 
+
+//NET "rx_id" LOC = H17;
+NET "TX" LOC = B21;
+NET "Leds[0]" LOC = D17;
+NET "Leds[1]" LOC = AB4;
+NET "Leds[2]" LOC = D21;
+NET "Leds[3]" LOC = W15;
+//---------------------------
+NET "Switches[1]" LOC = Y6;
+NET "Switches[2]" LOC = W6;
+NET "Switches[0]" LOC = C18;
+//---------------------------
+NET "TX_EN" LOC = E4;

@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat May 01 01:22:24 2021
+# Process ID: 13672
+# Log file: D:/Work Zone/FPGA/TX/TX_UART_Module/planAhead_run_3/planAhead.log
+# Journal file: D:/Work Zone/FPGA/TX/TX_UART_Module/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Work Zone/FPGA/TX/TX_UART_Module/pa.fromNcd.tcl}
+startgroup
+set_property package_pin C18 [get_ports {D_Switches[2]}]
+endgroup
+startgroup
+set_property package_pin Y6 [get_ports {D_Switches[1]}]
+endgroup
+startgroup
+set_property package_pin W6 [get_ports {D_Switches[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  clk_p]]
+startgroup
+set_property package_pin V11 [get_ports Data_ready]
+endgroup
+startgroup
+set_property package_pin W11 [get_ports Data_sent]
+endgroup
+startgroup
+set_property package_pin AB9 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin K21 [get_ports clk_p]
+endgroup
+startgroup
+set_property package_pin V11 [get_ports Data_ready]
+endgroup
+startgroup
+set_property package_pin W11 [get_ports Data_sent]
+endgroup
+startgroup
+set_property package_pin AB8 [get_ports TX_ACTIVE]
+endgroup
+startgroup
+set_property package_pin E4 [get_ports TX_EN]
+endgroup
+save_constraints

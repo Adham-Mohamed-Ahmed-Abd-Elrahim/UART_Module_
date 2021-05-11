@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Work Zone\FPGA\TX\TX_UART_Module\TOP.ncd
+OUTFILE=D:\Work Zone\FPGA\TX\TX_UART_Module\TOP.bit
+FAMILY=Spartan6
+PART=xc6slx45t-3fgg484
+WORKINGDIR=D:\Work Zone\FPGA\TX\TX_UART_Module
+LICENSE=WebPack
+USER_INFO=__0_0_0

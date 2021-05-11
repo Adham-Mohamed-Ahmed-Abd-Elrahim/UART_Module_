@@ -1,0 +1,631 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: TOP.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TOP.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TOP"
+Output Format                      : NGC
+Target Device                      : xc6slx45t-3-fgg484
+
+---- Source Options
+Top Module Name                    : TOP
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v" into library work
+Parsing module <clk_gen>.
+Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" into library work
+Parsing module <TX_Module>.
+Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" into library work
+Parsing module <UART_RX>.
+Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\LED_CTR.v" into library work
+Parsing module <LED_CTR>.
+Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\Input_Data.v" into library work
+Parsing module <Paralle_Data>.
+Analyzing Verilog file "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v" into library work
+Parsing module <uart_baud_gen>.
+Analyzing Verilog file "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\meta_harden.v" into library work
+Parsing module <meta_harden>.
+Analyzing Verilog file "D:\Work Zone\FPGA\TX\TX_UART_Module\TOP.v" into library work
+Parsing module <TOP>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <TOP>.
+
+Elaborating module <clk_gen>.
+
+Elaborating module <IBUFGDS>.
+
+Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=1,CLKFX_MULTIPLY=4,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=5.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
+WARNING:HDLCompiler:1127 - "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v" Line 128: Assignment to locked_int ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v" Line 129: Assignment to status_int ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <Paralle_Data>.
+
+Elaborating module <uart_baud_gen>.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v" Line 100: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v" Line 112: Result of 8-bit expression is truncated to fit in 7-bit target.
+
+Elaborating module <TX_Module>.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 81: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 98: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 106: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v" Line 123: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <meta_harden>.
+
+Elaborating module <UART_RX>.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 74: Result of 6-bit expression is truncated to fit in 5-bit target.
+"D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 79. $display START\n
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 100: Result of 6-bit expression is truncated to fit in 5-bit target.
+"D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 107. $display READ:0\n
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 108: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 123: Result of 6-bit expression is truncated to fit in 5-bit target.
+"D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v" Line 127. $display stop\n
+
+Elaborating module <LED_CTR>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <TOP>.
+    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\TOP.v".
+    Summary:
+	no macro.
+Unit <TOP> synthesized.
+
+Synthesizing Unit <clk_gen>.
+    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\ipcore_dir\clk_gen.v".
+    Summary:
+	no macro.
+Unit <clk_gen> synthesized.
+
+Synthesizing Unit <Paralle_Data>.
+    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\Input_Data.v".
+    Found 8-bit register for signal <data_parallel>.
+    Found 8x8-bit Read Only RAM for signal <switches[2]_GND_6_o_wide_mux_1_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <Paralle_Data> synthesized.
+
+Synthesizing Unit <uart_baud_gen>.
+    Related source file is "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\uart_baud_gen.v".
+        BAUD_RATE = 57600
+        CLOCK_RATE = 100000000
+    Found 1-bit register for signal <baud_x16_en_reg>.
+    Found 7-bit register for signal <internal_count>.
+    Found 7-bit subtractor for signal <internal_count_m_1> created at line 90.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <uart_baud_gen> synthesized.
+
+Synthesizing Unit <TX_Module>.
+    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\TX_Module.v".
+    Found 1-bit register for signal <Serial_out>.
+    Found 4-bit register for signal <baud_counter>.
+    Found 2-bit register for signal <next_status>.
+    Found 1-bit register for signal <TX_ACTIVE>.
+    Found 1-bit register for signal <data_sent>.
+    Found 3-bit register for signal <bit_index>.
+    Found 8-bit register for signal <Parallel_Data>.
+    Found 2-bit register for signal <current_status>.
+    Found 3-bit adder for signal <bit_index[2]_GND_8_o_add_13_OUT> created at line 106.
+    Found 4-bit adder for signal <baud_counter[3]_GND_8_o_add_20_OUT> created at line 123.
+    Found 1-bit 8-to-1 multiplexer for signal <bit_index[2]_Parallel_Data[7]_Mux_9_o> created at line 95.
+    Found 2-bit 4-to-1 multiplexer for signal <current_status[1]_GND_8_o_wide_mux_25_OUT> created at line 57.
+    Found 3-bit comparator greater for signal <bit_index[2]_PWR_9_o_LessThan_13_o> created at line 104
+    Found 4-bit comparator greater for signal <baud_counter[3]_PWR_9_o_LessThan_20_o> created at line 121
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <TX_Module> synthesized.
+
+Synthesizing Unit <meta_harden>.
+    Related source file is "D:\Work Zone\FPGA\Rest Of sessions\uart_baud_gen\meta_harden.v".
+    Found 1-bit register for signal <signal_dst>.
+    Found 1-bit register for signal <signal_meta>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <meta_harden> synthesized.
+
+Synthesizing Unit <UART_RX>.
+    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\RX_MODULE.v".
+    Found 1-bit register for signal <Serial_Bit>.
+    Found 5-bit register for signal <clk_counter>.
+    Found 2-bit register for signal <next_status>.
+    Found 1-bit register for signal <data_ready>.
+    Found 8-bit register for signal <OUT_BYTE>.
+    Found 4-bit register for signal <bit_position>.
+    Found 2-bit register for signal <current_status>.
+    Found 4-bit adder for signal <bit_position[3]_GND_10_o_add_21_OUT> created at line 108.
+    Found 5-bit adder for signal <clk_counter[4]_GND_10_o_add_31_OUT> created at line 123.
+    Found 5-bit 4-to-1 multiplexer for signal <current_status[1]_GND_10_o_wide_mux_34_OUT> created at line 65.
+    Found 2-bit 4-to-1 multiplexer for signal <current_status[1]_GND_10_o_wide_mux_35_OUT> created at line 65.
+    Found 5-bit comparator greater for signal <clk_counter[4]_GND_10_o_LessThan_15_o> created at line 98
+    Found 4-bit comparator greater for signal <bit_position[3]_PWR_11_o_LessThan_17_o> created at line 104
+    Found 4-bit comparator lessequal for signal <n0015> created at line 106
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  23 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred  20 Multiplexer(s).
+Unit <UART_RX> synthesized.
+
+Synthesizing Unit <LED_CTR>.
+    Related source file is "D:\Work Zone\FPGA\TX\TX_UART_Module\LED_CTR.v".
+    Found 4-bit register for signal <LEDS_OUT>.
+    Found 16x4-bit Read Only RAM for signal <_n0034>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   4 D-type flip-flop(s).
+Unit <LED_CTR> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x4-bit single-port Read Only RAM                    : 1
+ 8x8-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 5
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 2
+ 5-bit adder                                           : 1
+ 7-bit subtractor                                      : 1
+# Registers                                            : 21
+ 1-bit register                                        : 8
+ 2-bit register                                        : 4
+ 3-bit register                                        : 1
+ 4-bit register                                        : 3
+ 5-bit register                                        : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 3
+# Comparators                                          : 5
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 2
+ 4-bit comparator lessequal                            : 1
+ 5-bit comparator greater                              : 1
+# Multiplexers                                         : 29
+ 1-bit 2-to-1 multiplexer                              : 9
+ 1-bit 8-to-1 multiplexer                              : 1
+ 2-bit 2-to-1 multiplexer                              : 4
+ 2-bit 4-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 3
+ 5-bit 2-to-1 multiplexer                              : 5
+ 5-bit 4-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <LED_CTR>.
+INFO:Xst:3231 - The small RAM <Mram__n0034> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 4-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <UART_OUT<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <LED_CTR> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Paralle_Data>.
+INFO:Xst:3231 - The small RAM <Mram_switches[2]_GND_6_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <switches>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Paralle_Data> synthesized (advanced).
+
+Synthesizing (advanced) Unit <TX_Module>.
+The following registers are absorbed into counter <baud_counter>: 1 register on signal <baud_counter>.
+Unit <TX_Module> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x4-bit single-port distributed Read Only RAM        : 1
+ 8x8-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 4
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 1
+ 7-bit subtractor                                      : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 63
+ Flip-Flops                                            : 63
+# Comparators                                          : 5
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 2
+ 4-bit comparator lessequal                            : 1
+ 5-bit comparator greater                              : 1
+# Multiplexers                                         : 28
+ 1-bit 2-to-1 multiplexer                              : 9
+ 1-bit 8-to-1 multiplexer                              : 1
+ 2-bit 2-to-1 multiplexer                              : 4
+ 2-bit 4-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 2
+ 5-bit 2-to-1 multiplexer                              : 5
+ 5-bit 4-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <data_parallel_3> (without init value) has a constant value of 0 in block <Paralle_Data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_parallel_4> (without init value) has a constant value of 0 in block <Paralle_Data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_parallel_5> (without init value) has a constant value of 0 in block <Paralle_Data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_parallel_6> (without init value) has a constant value of 0 in block <Paralle_Data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_parallel_7> (without init value) has a constant value of 0 in block <Paralle_Data>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <TOP> ...
+
+Optimizing unit <TX_Module> ...
+
+Optimizing unit <uart_baud_gen> ...
+
+Optimizing unit <UART_RX> ...
+WARNING:Xst:1710 - FF/Latch <TX_MOD/Parallel_Data_7> (without init value) has a constant value of 0 in block <TOP>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <TX_MOD/Parallel_Data_6> (without init value) has a constant value of 0 in block <TOP>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <TX_MOD/Parallel_Data_5> (without init value) has a constant value of 0 in block <TOP>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <TX_MOD/Parallel_Data_4> (without init value) has a constant value of 0 in block <TOP>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <TX_MOD/Parallel_Data_3> (without init value) has a constant value of 0 in block <TOP>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TOP, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 57
+ Flip-Flops                                            : 57
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : TOP.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 84
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 5
+#      LUT3                        : 12
+#      LUT4                        : 17
+#      LUT5                        : 14
+#      LUT6                        : 33
+#      MUXF7                       : 1
+# FlipFlops/Latches                : 57
+#      FD                          : 14
+#      FDE                         : 30
+#      FDR                         : 9
+#      FDRE                        : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 23
+#      IBUF                        : 6
+#      IBUFGDS                     : 1
+#      OBUF                        : 16
+# DCMs                             : 1
+#      DCM_SP                      : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45tfgg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              57  out of  54576     0%  
+ Number of Slice LUTs:                   82  out of  27288     0%  
+    Number used as Logic:                82  out of  27288     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     93
+   Number with an unused Flip Flop:      36  out of     93    38%  
+   Number with an unused LUT:            11  out of     93    11%  
+   Number of fully used LUT-FF pairs:    46  out of     93    49%  
+   Number of unique control sets:         9
+
+IO Utilization: 
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    296     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_p                              | DCM_SP:CLKDV           | 57    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.055ns (Maximum Frequency: 486.529MHz)
+   Minimum input arrival time before clock: 3.153ns
+   Maximum output required time after clock: 3.791ns
+   Maximum combinational path delay: 4.372ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_p'
+  Clock period: 2.055ns (frequency: 486.529MHz)
+  Total number of paths / destination ports: 579 / 96
+-------------------------------------------------------------------------
+Delay:               4.111ns (Levels of Logic = 3)
+  Source:            rx_module/clk_counter_4 (FF)
+  Destination:       rx_module/bit_position_3 (FF)
+  Source Clock:      clk_p rising 0.5X
+  Destination Clock: clk_p rising 0.5X
+
+  Data Path: rx_module/clk_counter_4 to rx_module/bit_position_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.447   1.028  rx_module/clk_counter_4 (rx_module/clk_counter_4)
+     LUT5:I0->O            7   0.203   0.878  rx_module/GND_10_o_GND_10_o_equal_7_o<4>1 (rx_module/GND_10_o_GND_10_o_equal_7_o)
+     LUT5:I3->O            4   0.203   1.048  rx_module/_n0163_inv1_rstpot (rx_module/_n0163_inv1_rstpot)
+     LUT6:I0->O            1   0.203   0.000  rx_module/bit_position_3_dpot (rx_module/bit_position_3_dpot)
+     FDE:D                     0.102          rx_module/bit_position_3
+    ----------------------------------------
+    Total                      4.111ns (1.158ns logic, 2.953ns route)
+                                       (28.2% logic, 71.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_p'
+  Total number of paths / destination ports: 21 / 21
+-------------------------------------------------------------------------
+Offset:              3.153ns (Levels of Logic = 2)
+  Source:            TX_EN (PAD)
+  Destination:       TX_MOD/Parallel_Data_2 (FF)
+  Destination Clock: clk_p rising 0.5X
+
+  Data Path: TX_EN to TX_MOD/Parallel_Data_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.755  TX_EN_IBUF (TX_EN_IBUF)
+     LUT4:I2->O            3   0.203   0.650  TX_MOD/_n0139_inv1 (TX_MOD/_n0139_inv)
+     FDE:CE                    0.322          TX_MOD/Parallel_Data_0
+    ----------------------------------------
+    Total                      3.153ns (1.747ns logic, 1.405ns route)
+                                       (55.4% logic, 44.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_p'
+  Total number of paths / destination ports: 15 / 15
+-------------------------------------------------------------------------
+Offset:              3.791ns (Levels of Logic = 1)
+  Source:            rx_module/OUT_BYTE_3 (FF)
+  Destination:       rx_out<3> (PAD)
+  Source Clock:      clk_p rising 0.5X
+
+  Data Path: rx_module/OUT_BYTE_3 to rx_out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              7   0.447   0.773  rx_module/OUT_BYTE_3 (rx_module/OUT_BYTE_3)
+     OBUF:I->O                 2.571          rx_out_3_OBUF (rx_out<3>)
+    ----------------------------------------
+    Total                      3.791ns (3.018ns logic, 0.773ns route)
+                                       (79.6% logic, 20.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               4.372ns (Levels of Logic = 2)
+  Source:            rx_id (PAD)
+  Destination:       TX (PAD)
+
+  Data Path: rx_id to TX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  rx_id_IBUF (TX_OBUF)
+     OBUF:I->O                 2.571          TX_OBUF (TX)
+    ----------------------------------------
+    Total                      4.372ns (3.793ns logic, 0.579ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_p          |    4.111|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.78 secs
+ 
+--> 
+
+Total memory usage is 4495572 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   22 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

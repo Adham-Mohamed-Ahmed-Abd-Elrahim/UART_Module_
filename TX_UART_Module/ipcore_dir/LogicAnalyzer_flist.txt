@@ -1,0 +1,19 @@
+# Output products list for <LogicAnalyzer>
+LogicAnalyzer.asy
+LogicAnalyzer.cdc
+LogicAnalyzer.constraints\LogicAnalyzer.ucf
+LogicAnalyzer.constraints\LogicAnalyzer.xdc
+LogicAnalyzer.gise
+LogicAnalyzer.ncf
+LogicAnalyzer.ngc
+LogicAnalyzer.sym
+LogicAnalyzer.ucf
+LogicAnalyzer.v
+LogicAnalyzer.veo
+LogicAnalyzer.xco
+LogicAnalyzer.xdc
+LogicAnalyzer.xise
+LogicAnalyzer_flist.txt
+LogicAnalyzer_readme.txt
+LogicAnalyzer_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

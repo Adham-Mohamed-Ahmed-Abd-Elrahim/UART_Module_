@@ -1,0 +1,91 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon May 10 15:02:06 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Leds<0>" LOCATE = SITE "D17" LEVEL 1;
+COMP "Leds<1>" LOCATE = SITE "AB4" LEVEL 1;
+COMP "Leds<2>" LOCATE = SITE "D21" LEVEL 1;
+COMP "Leds<3>" LOCATE = SITE "W15" LEVEL 1;
+COMP "TX_EN" LOCATE = SITE "E4" LEVEL 1;
+COMP "clk_p" LOCATE = SITE "K21" LEVEL 1;
+COMP "TX" LOCATE = SITE "B21" LEVEL 1;
+COMP "Switches<0>" LOCATE = SITE "C18" LEVEL 1;
+COMP "Switches<1>" LOCATE = SITE "Y6" LEVEL 1;
+COMP "Switches<2>" LOCATE = SITE "W6" LEVEL 1;
+COMP "reset" LOCATE = SITE "H8" LEVEL 1;
+COMP "RX_Done" LOCATE = SITE "V11" LEVEL 1;
+TIMEGRP instance_clk_gen_clkdv = BEL "synchronizer/signal_dst" BEL
+        "synchronizer/signal_meta" BEL "leds/LEDS_OUT_3" BEL "leds/LEDS_OUT_2"
+        BEL "leds/LEDS_OUT_1" BEL "leds/LEDS_OUT_0" BEL
+        "instance_clk_gen/clkout1_buf" BEL "TX_IN/data_parallel_2" BEL
+        "TX_IN/data_parallel_1" BEL "TX_IN/data_parallel_0" BEL
+        "TX_MOD/baud_counter_3" BEL "TX_MOD/baud_counter_2" BEL
+        "TX_MOD/baud_counter_1" BEL "TX_MOD/baud_counter_0" BEL
+        "TX_MOD/bit_index_2" BEL "TX_MOD/bit_index_1" BEL "TX_MOD/bit_index_0"
+        BEL "TX_MOD/TX_ACTIVE" BEL "TX_MOD/data_sent" BEL
+        "TX_MOD/current_status_1" BEL "TX_MOD/current_status_0" BEL
+        "TX_MOD/next_status_1" BEL "TX_MOD/next_status_0" BEL
+        "TX_MOD/Parallel_Data_2" BEL "TX_MOD/Parallel_Data_1" BEL
+        "TX_MOD/Parallel_Data_0" BEL "TX_MOD/Serial_out" BEL
+        "baud_gen/internal_count_6" BEL "baud_gen/internal_count_5" BEL
+        "baud_gen/internal_count_4" BEL "baud_gen/internal_count_3" BEL
+        "baud_gen/internal_count_2" BEL "baud_gen/internal_count_1" BEL
+        "baud_gen/internal_count_0" BEL "baud_gen/baud_x16_en_reg" BEL
+        "rx_module/current_status_1" BEL "rx_module/current_status_0" BEL
+        "rx_module/next_status_1" BEL "rx_module/next_status_0" BEL
+        "rx_module/clk_counter_4" BEL "rx_module/clk_counter_3" BEL
+        "rx_module/clk_counter_2" BEL "rx_module/clk_counter_1" BEL
+        "rx_module/clk_counter_0" BEL "rx_module/bit_position_3" BEL
+        "rx_module/bit_position_2" BEL "rx_module/bit_position_1" BEL
+        "rx_module/bit_position_0" BEL "rx_module/OUT_BYTE_7" BEL
+        "rx_module/OUT_BYTE_6" BEL "rx_module/OUT_BYTE_5" BEL
+        "rx_module/OUT_BYTE_4" BEL "rx_module/OUT_BYTE_3" BEL
+        "rx_module/OUT_BYTE_2" BEL "rx_module/OUT_BYTE_1" BEL
+        "rx_module/OUT_BYTE_0" BEL "rx_module/data_ready" BEL
+        "rx_module/Serial_Bit";
+TIMEGRP instance_clk_gen_clkdv_0 = BEL "synchronizer/signal_dst" BEL
+        "synchronizer/signal_meta" BEL "leds/LEDS_OUT_3" BEL "leds/LEDS_OUT_2"
+        BEL "leds/LEDS_OUT_1" BEL "leds/LEDS_OUT_0" BEL
+        "instance_clk_gen/clkout1_buf" BEL "TX_IN/data_parallel_2" BEL
+        "TX_IN/data_parallel_1" BEL "TX_IN/data_parallel_0" BEL
+        "TX_MOD/baud_counter_3" BEL "TX_MOD/baud_counter_2" BEL
+        "TX_MOD/baud_counter_1" BEL "TX_MOD/baud_counter_0" BEL
+        "TX_MOD/bit_index_2" BEL "TX_MOD/bit_index_1" BEL "TX_MOD/bit_index_0"
+        BEL "TX_MOD/TX_ACTIVE" BEL "TX_MOD/data_sent" BEL
+        "TX_MOD/current_status_1" BEL "TX_MOD/current_status_0" BEL
+        "TX_MOD/next_status_1" BEL "TX_MOD/next_status_0" BEL
+        "TX_MOD/Parallel_Data_2" BEL "TX_MOD/Parallel_Data_1" BEL
+        "TX_MOD/Parallel_Data_0" BEL "TX_MOD/Serial_out" BEL
+        "baud_gen/internal_count_6" BEL "baud_gen/internal_count_5" BEL
+        "baud_gen/internal_count_4" BEL "baud_gen/internal_count_3" BEL
+        "baud_gen/internal_count_2" BEL "baud_gen/internal_count_1" BEL
+        "baud_gen/internal_count_0" BEL "baud_gen/baud_x16_en_reg" BEL
+        "rx_module/current_status_1" BEL "rx_module/current_status_0" BEL
+        "rx_module/next_status_1" BEL "rx_module/next_status_0" BEL
+        "rx_module/clk_counter_4" BEL "rx_module/clk_counter_3" BEL
+        "rx_module/clk_counter_2" BEL "rx_module/clk_counter_1" BEL
+        "rx_module/clk_counter_0" BEL "rx_module/bit_position_3" BEL
+        "rx_module/bit_position_2" BEL "rx_module/bit_position_1" BEL
+        "rx_module/bit_position_0" BEL "rx_module/OUT_BYTE_7" BEL
+        "rx_module/OUT_BYTE_6" BEL "rx_module/OUT_BYTE_5" BEL
+        "rx_module/OUT_BYTE_4" BEL "rx_module/OUT_BYTE_3" BEL
+        "rx_module/OUT_BYTE_2" BEL "rx_module/OUT_BYTE_1" BEL
+        "rx_module/OUT_BYTE_0" BEL "rx_module/data_ready" BEL
+        "rx_module/Serial_Bit";
+PIN SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0> = BEL "SP6_BUFIO_INSERT_ML_BUFIO2_0"
+        PINNAME DIVCLK;
+PIN instance_clk_gen/dcm_sp_inst_pins<3> = BEL "instance_clk_gen/dcm_sp_inst"
+        PINNAME CLKIN;
+TIMEGRP clk_N = PIN "SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0>" PIN
+        "instance_clk_gen/dcm_sp_inst_pins<3>";
+TIMEGRP clk_p = PIN "SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0>" PIN
+        "instance_clk_gen/dcm_sp_inst_pins<3>";
+TS_clk_N = PERIOD TIMEGRP "clk_N" 5 ns LOW 50%;
+TS_clk_p = PERIOD TIMEGRP "clk_p" 5 ns HIGH 50%;
+TS_instance_clk_gen_clkdv = PERIOD TIMEGRP "instance_clk_gen_clkdv" TS_clk_N *
+        2 PHASE -2.5 ns LOW 50%;
+TS_instance_clk_gen_clkdv_0 = PERIOD TIMEGRP "instance_clk_gen_clkdv_0"
+        TS_clk_p * 2 HIGH 50%;
+SCHEMATIC END;
+

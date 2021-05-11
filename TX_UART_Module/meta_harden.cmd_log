@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Work Zone/FPGA/TX/TX_UART_Module/meta_harden.xst" -ofn "D:/Work Zone/FPGA/TX/TX_UART_Module/meta_harden.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 "meta_harden.ngc" meta_harden.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o meta_harden_map.ncd meta_harden.ngd meta_harden.pcf 
+par -w -intstyle ise -ol high -mt off meta_harden_map.ncd meta_harden.ncd meta_harden.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml meta_harden.twx meta_harden.ncd -o meta_harden.twr meta_harden.pcf 

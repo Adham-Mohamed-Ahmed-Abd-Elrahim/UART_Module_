@@ -1,0 +1,38 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Work Zone/FPGA/TX/TX_UART_Module/TOP_isim_beh.exe -prj D:/Work Zone/FPGA/TX/TX_UART_Module/TOP_beh.prj work.TOP work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/ipcore_dir/clk_gen.v" into library work
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/TX_Module.v" into library work
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/RX_MODULE.v" into library work
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/LED_CTR.v" into library work
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/Input_Data.v" into library work
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v" into library work
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/../../Rest Of sessions/uart_baud_gen/meta_harden.v" into library work
+Analyzing Verilog file "D:/Work Zone/FPGA/TX/TX_UART_Module/TOP.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IBUFGDS
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKIN_PERIOD=5.0)
+Compiling module BUFG
+Compiling module clk_gen
+Compiling module Paralle_Data
+Compiling module uart_baud_gen_default
+Compiling module TX_Module
+Compiling module meta_harden
+Compiling module UART_RX
+Compiling module LED_CTR
+Compiling module TOP
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable D:/Work Zone/FPGA/TX/TX_UART_Module/TOP_isim_beh.exe
+Fuse Memory Usage: 32248 KB
+Fuse CPU Usage: 437 ms

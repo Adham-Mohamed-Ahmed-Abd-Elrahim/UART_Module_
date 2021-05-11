@@ -1,0 +1,272 @@
+# Reading C:/modeltech64_2019.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 2019.4 Oct 15 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {TOP.fdo}
+# Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+# Start time: 05:24:43 on May 03,2021
+# vlog -reportprogress 300 ipcore_dir/clk_gen.v 
+# -- Compiling module clk_gen
+# 
+# Top level modules:
+# 	clk_gen
+# End time: 05:24:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+# Start time: 05:24:43 on May 03,2021
+# vlog -reportprogress 300 RX_MODULE.v 
+# -- Compiling module UART_RX
+# 
+# Top level modules:
+# 	UART_RX
+# End time: 05:24:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+# Start time: 05:24:43 on May 03,2021
+# vlog -reportprogress 300 LED_CTR.v 
+# -- Compiling module LED_CTR
+# 
+# Top level modules:
+# 	LED_CTR
+# End time: 05:24:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+# Start time: 05:24:43 on May 03,2021
+# vlog -reportprogress 300 ../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v 
+# -- Compiling module uart_baud_gen
+# 
+# Top level modules:
+# 	uart_baud_gen
+# End time: 05:24:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+# Start time: 05:24:43 on May 03,2021
+# vlog -reportprogress 300 ../../Rest Of sessions/uart_baud_gen/meta_harden.v 
+# -- Compiling module meta_harden
+# 
+# Top level modules:
+# 	meta_harden
+# End time: 05:24:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+# Start time: 05:24:43 on May 03,2021
+# vlog -reportprogress 300 TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 05:24:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+# Start time: 05:24:43 on May 03,2021
+# vlog -reportprogress 300 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 05:24:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.TOP glbl 
+# Start time: 05:24:44 on May 03,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: TOP.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: TOP.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: TOP.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: TOP.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error: ipcore_dir/clk_gen.v(81): Module 'IBUFGDS' is not defined.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error: ipcore_dir/clk_gen.v(111): Module 'DCM_SP' is not defined.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error: ipcore_dir/clk_gen.v(142): Module 'BUFG' is not defined.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error: ipcore_dir/clk_gen.v(146): Module 'BUFG' is not defined.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ipcore_dir/clk_gen.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/meta_harden.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/meta_harden.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/meta_harden.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: ../../Rest Of sessions/uart_baud_gen/meta_harden.v(1): (vopt-2669) Unable to find library 'secureip'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: RX_MODULE.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: RX_MODULE.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: RX_MODULE.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: RX_MODULE.v(1): (vopt-2669) Unable to find library 'secureip'.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./TOP.fdo PAUSED at line 33
+# End time: 05:24:57 on May 03,2021, Elapsed time: 0:00:13
+# Errors: 76, Warnings: 36

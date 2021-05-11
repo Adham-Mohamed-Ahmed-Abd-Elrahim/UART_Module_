@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11f vlog 2019.4 2019.10, Oct 15 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Work Zone/FPGA/TX/TX_UART_Module
+vclk_gen
+Z1 !s110 1620008683
+!i10b 1
+!s100 2GeA1Hg`G[gP9K0RZnl=k3
+!s11b 8A5Fo2gM]cf;6FnS]n;@c0
+IH`A^MJImWU0ZDL<RAcASA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1619912560
+8ipcore_dir/clk_gen.v
+Fipcore_dir/clk_gen.v
+!i122 -1
+L0 68
+Z3 OL;L;2019.4;69
+r1
+!s85 0
+31
+Z4 !s108 1620008683.000000
+!s107 ipcore_dir/clk_gen.v|
+!s90 -reportprogress|300|ipcore_dir/clk_gen.v|
+!i113 0
+Z5 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vglbl
+R1
+!i10b 1
+!s100 A2;7Y<mjg9G1MIPZ^zU:j1
+!s11b dHlZO;h73W7M`iYBGOMJ_2
+IO_9E1W734;ai`5ZOPCc@11
+R2
+R0
+w1381681120
+8C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+!i122 -1
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+R5
+R6
+vLED_CTR
+R1
+!i10b 1
+!s100 ?VQS?2G9jMD?GGolh<WD80
+!s11b 9Ri1eneI4LIIH1b;DnNKC0
+IDE0>Z;DldgJ>J=kSV;dFR3
+R2
+R0
+w1619966408
+8LED_CTR.v
+FLED_CTR.v
+!i122 -1
+Z7 L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 LED_CTR.v|
+!s90 -reportprogress|300|LED_CTR.v|
+!i113 0
+R5
+R6
+n@l@e@d_@c@t@r
+vmeta_harden
+R1
+!i10b 1
+!s100 g_UcJN=>;EA2kZIRE9=BO3
+!s11b XGaPa5LjJjY`2WoP4EanS0
+ISe]GoA`L8J:OPhJ3elab>2
+R2
+R0
+w1608905218
+8../../Rest Of sessions/uart_baud_gen/meta_harden.v
+F../../Rest Of sessions/uart_baud_gen/meta_harden.v
+!i122 -1
+L0 10
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../Rest Of sessions/uart_baud_gen/meta_harden.v|
+!s90 -reportprogress|300|../../Rest Of sessions/uart_baud_gen/meta_harden.v|
+!i113 0
+R5
+R6
+vTOP
+R1
+!i10b 1
+!s100 6TP^CJH1d`d@z1ILVflNz1
+!s11b 5eH@^ddfJ`DaWkH5bmHOJ1
+IReU8^]jOF=IITGiioD?hz0
+R2
+R0
+w1619910240
+8TOP.v
+FTOP.v
+!i122 -1
+L0 41
+R3
+r1
+!s85 0
+31
+R4
+!s107 TOP.v|
+!s90 -reportprogress|300|TOP.v|
+!i113 0
+R5
+R6
+n@t@o@p
+vuart_baud_gen
+R1
+!i10b 1
+!s100 ^n_^^OhWJlg_iE<BH787;2
+!s11b RcoG=SHlePB9hDdNaG<zC1
+IR?P0kzVa2OjLQUP?O2K<<1
+R2
+R0
+w1620006242
+8../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v
+F../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v
+!i122 -1
+L0 25
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v|
+!s90 -reportprogress|300|../../Rest Of sessions/uart_baud_gen/uart_baud_gen.v|
+!i113 0
+R5
+R6
+vUART_RX
+R1
+!i10b 1
+!s100 d>MS=CO5Sc`Ozk<BkTbl_0
+!s11b MNX<dGmS^L`]<RdnUcULF1
+IL;GenX;:UA:9BPJ8MoL9i2
+R2
+R0
+w1619915562
+8RX_MODULE.v
+FRX_MODULE.v
+!i122 -1
+R7
+R3
+r1
+!s85 0
+31
+R4
+!s107 RX_MODULE.v|
+!s90 -reportprogress|300|RX_MODULE.v|
+!i113 0
+R5
+R6
+n@u@a@r@t_@r@x

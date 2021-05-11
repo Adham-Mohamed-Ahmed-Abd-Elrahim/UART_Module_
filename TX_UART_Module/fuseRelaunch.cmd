@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Work Zone/FPGA/TX/TX_UART_Module/TOP_isim_beh.exe" -prj "D:/Work Zone/FPGA/TX/TX_UART_Module/TOP_beh.prj" "work.TOP" "work.glbl" 
